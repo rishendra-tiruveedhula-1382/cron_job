@@ -1,0 +1,20 @@
+exit
+cd
+pwd
+sudo apt update
+sudo apt upgrade
+sudo apt install neovim kitty fzf xclip stow lazygit build-essentials lsd tldr bat zellij yazi starship
+sudo apt install neovim kitty fzf xclip stow lsd tldr bat
+sudo apt install zellij
+kitty
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ls
+ls -la
+git clone https://github.com/rishendra2003/dotfiles.git
+cd dotfiles/
+ls -la
+sudo apt install fish
+which fish
+chsh
+fish
+exit
